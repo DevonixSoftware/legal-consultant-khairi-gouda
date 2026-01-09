@@ -11,6 +11,7 @@ body {
     background: rgba(40,82,128,0.08);
     color: #333;
     min-height: 100vh;
+     background: linear-gradient(135deg, #e6edf7 0%, #edf2f9 100%);
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
 
 /* ================= HEADER ================= */
 header {
-    background: rgba(65, 71, 181, 0.95);
+     background: rgba(19, 12, 164, 0.2);
     backdrop-filter: blur(8px);
     position: fixed;
     top: 0;
@@ -36,8 +37,8 @@ header .container {
 
 header h1 {
     text-align: center;
-    color: #fff;
-    font-size: 1.8rem;
+    color: #201f1f;
+    font-size: 1.6rem;
     margin-bottom: 10px;
 }
 
@@ -50,10 +51,10 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #151414;
     text-decoration: none;
-    font-weight: 800;
-    font-size: 28px;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 nav a:hover {
@@ -135,23 +136,23 @@ nav a:hover {
 
 .hero .overlay .container {
     text-align: center;
-    max-width: 900px;
+    max-width: 800px;
     position: relative;
     padding-bottom: 60px;
 }
 
 .hero h2 {
-    font-size: 3.0rem;
+    font-size: 2.0rem;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .hero p {
     font-size: 1.4rem;
    color: #fff;
-    margin-bottom: 10px;
-    font-weight: 800;
-    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 /* CTA */
@@ -373,11 +374,11 @@ footer p {
     }
 
     .hero h2 {
-        font-size: 2rem;
+        font-size:1.5rem;
     }
 
     .hero p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .slider {
@@ -505,6 +506,25 @@ footer p {
         padding: 0 15px;
     }
 }
+   
+
+/* div الصورة الشخصية */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+/* الصورة الشخصية */
+.nav-left img.nav-profile {
+  width: 50px;       /* حجم الصورة */
+  height: 50px;
+  object-fit: cover;
+  border: 2px solid #fff; /* إطار أبيض اختياري */
+}
+
+
+
+
 
 
 
